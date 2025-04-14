@@ -3,15 +3,11 @@
 "use strict"
 
 function myButtonClicked() {
-//input
-  const firstBase = document.getElementById("base-a").value
-  const secondBase = document.getElementById("base-b").value
-  const heightOfTrapezium = document.getElementById("height").value
-//process
-  const areaHalfway = (firstBase * secondBase) * heightOfTrapezium
-  const areaAnswer = areaHalfway / 2
-
-//output
-  document.getElementById("answer").innerHTML =
-  "The area of this trapezium is: " + areaAnswer + " mm²."
+  document.getElementById("answer").innerHTML = `
+    <p>I found that the Sh'ma is a way of us understanding God in us. A way we can always remind ourselves as his creation, as his children.</p>
+    <p>We are his son and daughter, and reciting that to ourselves and children is a way to invite God not only into our hearts, but into our minds and residences.</p>
+    <p>This is similar to the CSTs and how we are always reminded to love ourselves, others.</p>
+    <img src="./images/sh'ma-prayer-html.png" alt="Sh'ma prayer being performed" style="max-width: 100%; height: auto; margin-top: 10px;">
+  `;
 }
+
